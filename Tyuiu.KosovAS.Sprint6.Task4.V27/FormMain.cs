@@ -84,7 +84,7 @@ namespace Tyuiu.KosovAS.Sprint6.Task4.V27
 
         private void buttonResult_MouseDown(object sender, MouseEventArgs e)
         {
-            buttonResult_KAS.BackColor = Color.Blue; ;
+            buttonResult_KAS.BackColor = Color.Blue;
         }
 
         private void buttonResult_MouseEnter(object sender, EventArgs e)

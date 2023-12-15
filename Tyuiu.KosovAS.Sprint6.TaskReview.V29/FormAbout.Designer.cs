@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.KosovAS.Sprint6.Task7.V20
+﻿namespace Tyuiu.KosovAS.Sprint6.TaskReview.V29
 {
     partial class FormAbout
     {
@@ -30,8 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
             this.pictureBoxInfo_KAS = new System.Windows.Forms.PictureBox();
-            this.labelInfo_KAS = new System.Windows.Forms.Label();
-            this.buttonInfo_KAS = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfo_KAS)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,38 +39,30 @@
             this.pictureBoxInfo_KAS.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxInfo_KAS.Image")));
             this.pictureBoxInfo_KAS.Location = new System.Drawing.Point(12, 12);
             this.pictureBoxInfo_KAS.Name = "pictureBoxInfo_KAS";
-            this.pictureBoxInfo_KAS.Size = new System.Drawing.Size(298, 298);
+            this.pictureBoxInfo_KAS.Size = new System.Drawing.Size(301, 396);
             this.pictureBoxInfo_KAS.TabIndex = 0;
             this.pictureBoxInfo_KAS.TabStop = false;
             // 
-            // labelInfo_KAS
+            // label1
             // 
-            this.labelInfo_KAS.AutoSize = true;
-            this.labelInfo_KAS.Location = new System.Drawing.Point(316, 12);
-            this.labelInfo_KAS.Name = "labelInfo_KAS";
-            this.labelInfo_KAS.Size = new System.Drawing.Size(413, 180);
-            this.labelInfo_KAS.TabIndex = 1;
-            this.labelInfo_KAS.Text = resources.GetString("labelInfo_KAS.Text");
-            // 
-            // buttonInfo_KAS
-            // 
-            this.buttonInfo_KAS.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.buttonInfo_KAS.Location = new System.Drawing.Point(600, 251);
-            this.buttonInfo_KAS.Name = "buttonInfo_KAS";
-            this.buttonInfo_KAS.Size = new System.Drawing.Size(90, 30);
-            this.buttonInfo_KAS.TabIndex = 2;
-            this.buttonInfo_KAS.Text = "OK";
-            this.buttonInfo_KAS.UseVisualStyleBackColor = false;
-            this.buttonInfo_KAS.Click += new System.EventHandler(this.buttonInfo_KAS_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(319, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(413, 140);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Разработчик: Косов А.С\r\nГруппа: АСОиУБ-23-3\r\n\r\nПрограмма разработана в рамках изу" +
+    "чения языка C#\r\n\r\nТюменский индустриальный университет (с) 2023\r\nВысшая школа ци" +
+    "фровых технологий (с) 2023\r\n";
             // 
             // FormAbout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(741, 315);
-            this.Controls.Add(this.buttonInfo_KAS);
-            this.Controls.Add(this.labelInfo_KAS);
+            this.ClientSize = new System.Drawing.Size(800, 425);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBoxInfo_KAS);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MinimizeBox = false;
             this.Name = "FormAbout";
             this.Text = "О программе";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfo_KAS)).EndInit();
@@ -83,7 +74,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBoxInfo_KAS;
-        private System.Windows.Forms.Label labelInfo_KAS;
-        private System.Windows.Forms.Button buttonInfo_KAS;
+        private System.Windows.Forms.Label label1;
     }
 }

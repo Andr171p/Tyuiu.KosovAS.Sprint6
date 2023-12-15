@@ -57,6 +57,7 @@
             this.buttonOpenFile_KAS.Name = "buttonOpenFile_KAS";
             this.buttonOpenFile_KAS.Size = new System.Drawing.Size(123, 79);
             this.buttonOpenFile_KAS.TabIndex = 0;
+            this.toolTip.SetToolTip(this.buttonOpenFile_KAS, "Выберите нужный файл");
             this.buttonOpenFile_KAS.UseVisualStyleBackColor = true;
             this.buttonOpenFile_KAS.Click += new System.EventHandler(this.buttonOpenFile_KAS_Click);
             this.buttonOpenFile_KAS.MouseEnter += new System.EventHandler(this.buttonOpenFile_KAS_MouseEnter);
@@ -68,6 +69,7 @@
             this.buttonResult_KAS.Name = "buttonResult_KAS";
             this.buttonResult_KAS.Size = new System.Drawing.Size(123, 79);
             this.buttonResult_KAS.TabIndex = 1;
+            this.toolTip.SetToolTip(this.buttonResult_KAS, "Запускает программу\r\n");
             this.buttonResult_KAS.UseVisualStyleBackColor = true;
             this.buttonResult_KAS.Click += new System.EventHandler(this.buttonResult_KAS_Click);
             this.buttonResult_KAS.MouseEnter += new System.EventHandler(this.buttonResult_KAS_MouseEnter);
@@ -79,6 +81,7 @@
             this.buttonInfo_KAS.Name = "buttonInfo_KAS";
             this.buttonInfo_KAS.Size = new System.Drawing.Size(123, 79);
             this.buttonInfo_KAS.TabIndex = 2;
+            this.toolTip.SetToolTip(this.buttonInfo_KAS, "Информация о приложении\r\n");
             this.buttonInfo_KAS.UseVisualStyleBackColor = true;
             this.buttonInfo_KAS.Click += new System.EventHandler(this.buttonInfo_KAS_Click);
             this.buttonInfo_KAS.MouseEnter += new System.EventHandler(this.buttonInfo_KAS_MouseEnter);
@@ -162,6 +165,7 @@
             this.buttonSaveFile_KAS.Name = "buttonSaveFile_KAS";
             this.buttonSaveFile_KAS.Size = new System.Drawing.Size(123, 79);
             this.buttonSaveFile_KAS.TabIndex = 6;
+            this.toolTip.SetToolTip(this.buttonSaveFile_KAS, "Сохраняет результат в файл\r\n");
             this.buttonSaveFile_KAS.UseVisualStyleBackColor = true;
             this.buttonSaveFile_KAS.Click += new System.EventHandler(this.buttonSaveFile_KAS_Click);
             this.buttonSaveFile_KAS.MouseEnter += new System.EventHandler(this.buttonSaveFile_KAS_MouseEnter);
